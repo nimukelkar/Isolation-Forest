@@ -15,7 +15,8 @@ Why isolation forest?
     
    ![Isolation_Forest (2)](https://user-images.githubusercontent.com/60577980/141651775-57a24791-8ef0-41c2-811e-5a7fe0b34658.png)
     
-    The data structure used here is an Isolation Forest.We can say that in our isolation Forest Algorithm, the minimum depth can be associated with the outlier!.
+    The data structure used here is an Isolation Forest.We can say that in our isolation Forest Algorithm,
+    the minimum depth can be associated with the outlier!.
 This is the main concept behind  the Isolation Forest Algorithm.!
 All outliers as seen above, have minimum depth.
 
