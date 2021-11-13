@@ -8,9 +8,13 @@ In layman language an anomaly is anything that doesn't follow a particular trend
       
 Why isolation forest?
        Most anomaly dteection algorithms start from the cluster and then see which data point does not fit the trend and is labelled as the outlier.Isolation Forest directly starts from the outlier and does not go to the intermediate clusters.This is explained with the below example.
+       
        ![Jeff_Bezoz](https://user-images.githubusercontent.com/60577980/141651700-50909d06-1c3f-43bf-8c48-4d283671c159.png)
 
-    The first deciding factor is the annual income of those people greater than 1 billion dollars.So Jeff Bezoz automatically becomes our outlier in the first comparison itself!!!.
+    The first deciding factor is the annual income of those people greater than 1 billion dollars.So Jeff Bezoz automatically becomes our outlier in the first comparison itself!!!
+    
+    ![Screenshot (414)](https://user-images.githubusercontent.com/60577980/141651735-87b51daf-8e6d-4ac7-994a-f57c47d1447d.png)
+
     The data structure used here is an Isolation Forest.We can say that in our isolation Forest Algorithm, the minimum depth can be associated with the outlier!.
 This is the main concept behind  the Isolation Forest Algorithm.!
 
