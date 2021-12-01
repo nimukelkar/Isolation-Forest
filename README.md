@@ -19,5 +19,7 @@ Why isolation forest?
     the minimum depth can be associated with the outlier!.
 This is the main concept behind  the Isolation Forest Algorithm.!
 All outliers as seen above, have minimum depth.
+           Same data point example (1,2) is applied to all the isolation trees.The average depth is calculated for all, and the minimum average depth of the isolation forest are associated with the outliers.This was performed on the iris dataset using the skicit library.The contamination factor decides the number of outliers.More the contamination factor, more the number of outliers.
+           
 
 
